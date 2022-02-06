@@ -81,17 +81,18 @@ html{
     background-color: #D4A59A;  
     color:#FFF;  
     text-align: center;  
-    
 }
 
 .bodycontent{
     margin : 5px 10% 5px 10%;
 }
+
 input{
     width:100%;
     height:36px;
     margin:5px 0px 5px 0px;
 }
+
 textarea{
     width:100%;
     margin:5px 0px 5px 0px;
@@ -106,5 +107,23 @@ textarea{
     border-radius: 3px;
     border:none;
     cursor: pointer;
+}
 
+#new_post{
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    padding:10px;
+    border-radius: 10%;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+    background-color:#c26d64;
+    color:yellow;
+    border:solid 3px #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#new_post:hover{
+    transform: scale(1.35);
 }

@@ -71,6 +71,11 @@ app.post("/compose",function(req,res){
     res.redirect('/');
 });
 
+app.post("/",function(req,res){
+
+    res.redirect("/compose");
+});
+
 
 
 app.listen(3000,function(){
