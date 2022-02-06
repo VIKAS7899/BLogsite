@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+
+    <h1><%= heading %></h1>
+    <form action="/compose" method="post">
+        <label for="newtext"><h3>Title</h3></label>
+       <input name="newtext" placeholder="Text" >
+       <label for="widecontent"><h3>How's your Day !</h3></label> 
+       <textarea name="widecontent" placeholder="Write here" ></textarea><br>
+       <button type ="submit" id="publish">Publish</button>
+   </form>
+
+<%- include('partials/footer') %>

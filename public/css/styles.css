@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Indie+Flower&family=Montserrat:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    
+}
+h1{
+    font-family: 'Caveat',sans-serif;
+    margin: 10px 0px 10px 0px;
+}
+
+p{
+    font-family: 'Indie Flower', cursive;
+}
+
+a{
+    font-family: 'Ubuntu', cursive; 
+}
+
+html{
+    scroll-behavior:smooth;
+    background-color: #f2f3db;
+}
+.max-width{
+     max-width: 1300px;
+     padding: 0 80px;
+     margin: auto;
+}
+.navbar{
+    /* position: fixed; */
+    width: 100%;
+      z-index: 100;
+    padding: 20px 0;
+    font-family: 'Montserrat',sans-serif;
+    transition: all 0.3s ease;
+    background-color:#f3dea0;
+}
+
+.navbar .max-width{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 25px;
+    font-weight: 600;
+    color:#000;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.navbar .logo a span{
+    color: #c74a3d;
+    transition: all 0.3s ease;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color:#FFF;
+    font-size:15px;
+   font-weight: 500;
+    margin-left: 25px;
+    font-family: 'Montserrat',sans-serif;
+    transition: color 1s ease;
+
+}
+.navbar .menu li a:hover{
+    color:#254E58;
+}
+
+.footer{
+    position: fixed;  
+    left: 10px;  
+    bottom: 5px;  
+    right: 10px;   
+    width: 100%;  
+    background-color: #D4A59A;  
+    color:#FFF;  
+    text-align: center;  
+    
+}
+
+.bodycontent{
+    margin : 5px 10% 5px 10%;
+}
+input{
+    width:100%;
+    height:36px;
+    margin:5px 0px 5px 0px;
+}
+textarea{
+    width:100%;
+    margin:5px 0px 5px 0px;
+    height:200px;
+}
+
+#publish{
+    background-color:slateblue;
+    padding:7px 10px 7px 10px;
+    font-size:13px;
+    color:#fff;
+    border-radius: 3px;
+    border:none;
+    cursor: pointer;
+
+}
